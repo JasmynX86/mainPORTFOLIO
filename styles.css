@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+body {
+  background-image: url("background.svg");
+  /* background-color: rgb(251, 133, 0); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.jas-custom {
+  background-color: rgba(10, 10, 10, 0.8);
+  border-radius: 0.9rem;
+  width: 70%;
+  margin: auto;
+  color: #fff;
+  font-size: large;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 100;
+  font-weight: bold;
+}
+
+.jas-custom h1 {
+  font-family: "Kaushan Script", cursive;
+  /* font-weight: 400; */
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.myWrapper {
+  background-color: rgb(236, 234, 234);
+  padding: 1rem;
+  /* border-radius: 1rem; */
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: black;
+  animation-duration: 3s;
+}
+
+#code {
+  font-family: "Kaushan Script", cursive;
+  letter-spacing: 0.4rem;
+}
+
+hr {
+  border-width: 0.5rem;
+  border-color: #ccff33;
+  margin-bottom: 0;
+}
+
+.w3-grey-1 {
+  background-color: #646464;
+}
+
+.w3-blue-1 {
+  background-color: #bfddf7;
+}
+
+.li-animate{
+  animation-duration: 3s;
+}
+
+#MyColor {
+  color: #ccff33;
+  font-family: "Kaushan Script", cursive;
+}
+
+#thexp{
+  font-family: "Kaushan Script", cursive;
+}
+
+#myJustify {
+  text-align: justify;
+  color: black;
+}
+
+.userprofile ul{
+  list-style: none;
+  background-color: #fff;
+  color: black;
+}
+.margins{
+  margin-left: 20rem;
+}
+
+footer {
+  /* background-image: url("footer.svg"); */
+  background-color: rgb(19, 18, 18);
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  color: aliceblue;
+}
+
+footer img {
+  height: 2rem;
+  width: 2rem;
+  background-color: rgb(97, 228, 10);
+  /* padding-bottom: 2rem; */
+}
+
+footer a {
+  padding: 3rem;
+  color: rgb(247, 250, 245);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: larger;
+  font-weight: bolder;
+  letter-spacing: 0.6rem;
+  text-decoration: none;
+}
