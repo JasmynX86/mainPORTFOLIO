@@ -21,6 +21,27 @@ body {
   font-weight: bold;
 }
 
+.jas-custom2{
+  background-color: rgba(10, 10, 10, 0.8);
+  border-radius: 0.9rem;
+  width: 100%;
+  margin: auto;
+  color: #fff;
+  font-size: large;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 100;
+  font-weight: bold;
+  background-color: rgb(236, 234, 234);
+  padding: 1rem;
+  /* border-radius: 1rem; */
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: black;
+  animation-duration: 3s;
+}
+
 .jas-custom h1 {
   font-family: "Kaushan Script", cursive;
   /* font-weight: 400; */
@@ -96,6 +117,25 @@ hr {
   width: 2rem;
   background-color: rgb(97, 228, 10);
   /* padding-bottom: 2rem; */
+}
+.form{
+  max-height: fit-content;
+}
+
+.jas-custom1{
+  margin: auto;
+  width: 70rem;
+  background-color: rgba(10, 10, 10, 0.8);
+  border-radius: 0.9rem;
+  color: #ccff33;
+}
+
+.my-padding{
+  padding-left: 16rem;
+}
+
+.my-font{
+  font-family: "Kaushan Script", cursive;
 }
 
 .footer a {
