@@ -6,6 +6,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin-bottom: 0rem;
 }
 
 .jas-custom {
@@ -83,23 +84,22 @@ hr {
   margin-left: 20rem;
 }
 
-footer {
+.footer {
   /* background-image: url("footer.svg"); */
   background-color: rgb(19, 18, 18);
-  background-size: contain;
-  /* background-repeat: no-repeat; */
   color: aliceblue;
+  
 }
 
-footer img {
+.footer img {
   height: 2rem;
   width: 2rem;
   background-color: rgb(97, 228, 10);
   /* padding-bottom: 2rem; */
 }
 
-footer a {
-  padding: 3rem;
+.footer a {
+  padding: 0 3rem 0 0;
   color: rgb(247, 250, 245);
   font-family: 'Shadows Into Light', cursive;
   font-size: larger;
